@@ -1,0 +1,13 @@
+#chú ý: Tôi comment mấy dòng bên dưới để bạn có đầy đủ code khi tải về.
+#/node_modules
+#/public/hot
+#/public/storage
+#/storage/*.key
+#/vendor
+#.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
