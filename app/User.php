@@ -51,6 +51,7 @@ class User extends Authenticatable
     }
 
     public function SaveNew($data){
+
         return DB::table($this->table)->insertGetId($data);
     }
 

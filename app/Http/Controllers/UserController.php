@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
 class UserController extends Controller
@@ -48,7 +49,7 @@ class UserController extends Controller
                 // không có lỗi, ghi CSDL
                 $dataSave = [
                     'username' => $request->get('txtUsername'),
-                    'passwd' => $request->get('txtPassword'),
+                    'passwd' => Hash::make( $request->get('txtPassword') ) ,
                     'email' => $request->get('txtEmail'),
                     'fullname' => $request->get('txtFullname')
                 ];
@@ -120,7 +121,7 @@ class UserController extends Controller
 
                 // nếu có sửa pass thì mới cập nhật
                 if( strlen($request->get('txtPassword'))>0){
-                    $dataSave['passwd'] = $request->get('txtPassword');
+                    $dataSave['passwd'] = Hash::make ($request->get('txtPassword'));
                 }
 
                 $objModel = new User(); // tạo đối tượng để gọi hàm SaveNew
