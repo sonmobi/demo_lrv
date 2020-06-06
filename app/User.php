@@ -17,7 +17,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'username', 'email', 'passwd',
     ];
 
     /**
@@ -59,5 +59,16 @@ class User extends Authenticatable
         return DB::table($this->table)
                     ->where('id',$id)
                     ->update($data);
+    }
+
+    /**
+     * mặc định tên cột trong bảng user phải là password, nếu thay đổi
+     * thì bạn có thể dùng hàm này để return lại tên cột
+     *
+     * @return string
+     */
+    public function getAuthPassword()
+    {
+        return $this->passwd;
     }
 }

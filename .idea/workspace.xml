@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df56550-1714-4b2a-b73b-556fe376e661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout_backend.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/User/Index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/User/Index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout_backend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout_backend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,9 +169,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="580" y="193" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1591334256190" />
-    <state x="634" y="366" key="NewPhpFileDialog" timestamp="1591360300222">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="507" y="290" key="NewPhpFileDialog" timestamp="1591407452274">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="507" y="290" key="NewPhpFileDialog/0.0.1280.689/1920.0.1024.738@0.0.1280.689" timestamp="1591407452274" />
     <state x="634" y="366" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1591360300222" />
     <state x="456" y="88" width="670" height="676" key="search.everywhere.popup" timestamp="1591296937781">
       <screen x="0" y="0" width="1600" height="870" />

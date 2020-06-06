@@ -29,3 +29,10 @@ Route::match(['get','post'],'/user/delete/{id}','UserController@Delete')
 
 
 Route::match(['get','post'],'/upload','AdminController@Upload') ->name('User.Upload');
+
+//========= Auth
+Route::match(['get','post'],'/login','AuthController@Login')
+    ->name('Auth.Login');
+Route::get('/logout','AuthController@Logout')
+    ->name('Auth.Logout');
+
