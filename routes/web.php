@@ -19,13 +19,20 @@ Route::get('/', function () {
 
 
 Route::get('/user','UserController@Index')->name('User.Index');
-Route::match(['get','post'],'/user/add','UserController@Add') ->name('User.Add');
+
+Route::match(['get','post'],'/user/add','UserController@Add')
+    ->name('User.Add')
+    ->middleware('auth');
+
 Route::match(['get','post'],'/user/edit/{id}','UserController@Edit')
     ->where(['id'=>'[0-9]+'])
-    ->name('User.Edit');
+    ->name('User.Edit')
+    ->middleware('auth');
+
 Route::match(['get','post'],'/user/delete/{id}','UserController@Delete')
     ->where(['id'=>'[0-9]+'])
-    ->name('User.Delete');
+    ->name('User.Delete')
+    ->middleware('auth');
 
 
 Route::match(['get','post'],'/upload','AdminController@Upload') ->name('User.Upload');
