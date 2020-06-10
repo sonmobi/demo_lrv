@@ -71,4 +71,22 @@ class User extends Authenticatable
     {
         return $this->passwd;
     }
+
+    /**
+     * Hàm lấy danh sách tất cả các vai trò (giống như nhóm tài khoản)
+     */
+    public function role(){
+        return $this->belongsTo(Role::class, 'id_role','id');
+    }
+
+    // hàm kiểm tra user hiện tại có được gán 1 quyền nào đó hay không,
+    // nếu có thì trả về true
+    public function hasPermission(Permission $permission){
+//        echo $permission->name;
+
+        $check = !!optional(optional($this->role)->permission)->contains($permission);
+//        var_dump($check);
+//        die();
+        return $check;
+    }
 }

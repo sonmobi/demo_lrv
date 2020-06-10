@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df56550-1714-4b2a-b73b-556fe376e661" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout_login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/User/Add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/User/Add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/User/Delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/User/Delete.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/User/Edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/User/Edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/User/Index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/User/Index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +156,11 @@
       <workItem from="1591318126843" duration="1466000" />
       <workItem from="1591334142887" duration="1425000" />
       <workItem from="1591348394273" duration="5311000" />
+      <workItem from="1591459555206" duration="884000" />
+      <workItem from="1591505399392" duration="9016000" />
+      <workItem from="1591593812651" duration="4702000" />
+      <workItem from="1591664545932" duration="799000" />
+      <workItem from="1591752730821" duration="636000" />
     </task>
     <servers />
   </component>
@@ -169,11 +172,11 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="580" y="193" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1591334256190" />
-    <state x="507" y="290" key="NewPhpFileDialog" timestamp="1591407452274">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="634" y="366" key="NewPhpFileDialog" timestamp="1591669212885">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="507" y="290" key="NewPhpFileDialog/0.0.1280.689/1920.0.1024.738@0.0.1280.689" timestamp="1591407452274" />
-    <state x="634" y="366" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1591360300222" />
+    <state x="634" y="366" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1591669212885" />
     <state x="456" y="88" width="670" height="676" key="search.everywhere.popup" timestamp="1591296937781">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
